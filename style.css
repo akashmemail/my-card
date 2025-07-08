@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.card {
+  background-color: bisque;
+  display: flex;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 300px;
+
+  margin-left: 10%;
+  border-width: 50px;
+  border-radius: 20px;
+}
+.akash {
+  font-size: 40px;
+  color: blue;
+}
+
+.cre {
+  color: green;
+}
+@media (max-width: 768px) {
+  .cnt {
+    flex-direction: row;
+  }
+}
